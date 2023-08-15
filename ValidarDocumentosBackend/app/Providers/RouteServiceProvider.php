@@ -37,6 +37,20 @@ class RouteServiceProvider extends ServiceProvider
 
             Route::middleware('web')
                 ->group(base_path('routes/web.php'));
+
+            $apps = scandir(base_path($baseRoute));
+            $appRoute = "";
+            foreach ($apps as $app) {
+                if ($app != "." && $app != "..") {
+                    $appRoute = base_path($baseRoute . "/" . $app . "/routes/" . $app . ".php");
+                }
+                if (file_exists($appRoute)) {
+                    Route::middleware('web')
+                        ->prefix($app)
+                        ->group($appRoute)
+                        ->namespace("Apps\\" . $app . "\\Controllers");
+                }
+            }
         });
 
     }
