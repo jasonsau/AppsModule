@@ -1,0 +1,12 @@
+<script setup>
+
+</script>
+
+<template>
+  <RouterLink to="/about">About</RouterLink>
+  <RouterView></RouterView>
+</template>
+
+<style scoped>
+
+</style>

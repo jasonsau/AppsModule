@@ -10,6 +10,6 @@ class HelloWordController extends Controller
 
     public function indexName($name)
     {
-        return "Hello $name!";
+        return view('HelloWordl::index');
     }
 }
