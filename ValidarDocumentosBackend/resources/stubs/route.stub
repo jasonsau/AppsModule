@@ -1,0 +1,7 @@
+<?php
+
+use Illuminate\support\Facades\Route;
+use Apps\{{ nameapp }}\Controllers\{{ nameapp }}Controller;
+
+
+Route::get('/', [{{ nameapp }}Controller::class, 'index']);

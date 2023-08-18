@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang = "es">
+    <head>
+        <title>{{ nameapp }}</title>
+        @vite(['apps/{{ nameapp }}/src/main.js'])
+    <head>
+    <body>
+        <h1>{{ nameapp }}</h1>
+        <div id = "app"></div>
+    </body>
+</html>

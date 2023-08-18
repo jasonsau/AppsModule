@@ -1,0 +1,10 @@
+<?php
+
+namespace {{ namespace }};
+
+class {{ nameclass }}Controller extends Controller {
+
+    public function index() {
+        return view('{{ nameapp }}::index');
+    }
+}
