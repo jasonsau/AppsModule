@@ -2,6 +2,7 @@ import { defineConfig } from 'vite';
 import fs from 'fs';
 import laravel from 'laravel-vite-plugin';
 import vue from '@vitejs/plugin-vue';
+import vuetify from 'vite-plugin-vuetify'
 import path from 'path';
 
 const inputFunction = () => {
@@ -16,6 +17,7 @@ const inputFunction = () => {
 export default defineConfig({
     plugins: [
         vue(),
+        vuetify({ autoImport: true }),
         laravel({
             input: inputFunction(),
             refresh: true,
