@@ -5,6 +5,7 @@
         @vite(['apps/{{ nameapp }}/src/main.js'])
     <head>
     <body>
+        @include('navbar')
         <h1>{{ nameapp }}</h1>
         <div id = "app"></div>
     </body>
