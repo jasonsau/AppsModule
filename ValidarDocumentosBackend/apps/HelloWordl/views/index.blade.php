@@ -5,6 +5,7 @@
         @vite(['apps/HelloWordl/src/main.js'])
     </head>
     <body>
+        @include('navbar')
         <h1>Prueba</h1>
         <div id = "app"></div>
     </body>
