@@ -1,0 +1,1 @@
+import{_ as o,o as n,c as t,F as c,a as e}from"./main-bb3deb43.js";const a={},s=e("h1",null,"Pagina de About",-1),r=e("h2",null,"Segundo componente",-1);function _(l,u){return n(),t(c,null,[s,r],64)}const f=o(a,[["render",_]]);export{f as default};

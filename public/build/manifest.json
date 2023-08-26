@@ -1,0 +1,29 @@
+{
+  "apps/HelloWordl/src/Components/About.vue": {
+    "file": "assets/About-221833f2.js",
+    "imports": [
+      "apps/HelloWordl/src/main.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "apps/HelloWordl/src/Components/About.vue"
+  },
+  "apps/HelloWordl/src/main.js": {
+    "dynamicImports": [
+      "apps/HelloWordl/src/Components/About.vue",
+      "apps/HelloWordl/src/Components/About.vue"
+    ],
+    "file": "assets/main-bb3deb43.js",
+    "isEntry": true,
+    "src": "apps/HelloWordl/src/main.js"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-4ed993c7.js",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-0d91dc04.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  }
+}
